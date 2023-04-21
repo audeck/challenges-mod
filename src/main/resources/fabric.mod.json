@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "audeck",
+  "version": "1.0",
+
+  "name": "audeck's Challenges",
+  "description": "A collection of singleplayer challenges, all in one mod.",
+  "authors": [
+    "audeck"
+  ],
+  "contact": {
+    "twitter": "https://twitter.com/audeckwastaken",
+    "youtube": "https://www.youtube.com/channel/UCOq1YFWg_6uwZ0sxyR3hLAA"
+  },
+
+  "license": "GNU GPLv3",
+  "icon": "assets/audeck/icon.png",
+  "environment": "*",
+
+  "entrypoints": {
+    "main": [
+      "me.audeck.challengemod.Main"
+    ],
+    "cardinal-components-level": [
+      "me.audeck.challengemod.cardinal.LevelComponents::registerLevelComponentFactories"
+    ]
+  },
+
+  "custom": {
+    "cardinal-components": [
+      "audeck:challenge_properties"
+    ]
+  },
+
+  "mixins": [
+    "audeck.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "1.16.1",
+    "fabricloader": ">=0.11.3",
+    "fabric-api-base": "*",
+    "fabric-networking-v0": "*",
+    "cardinal-components-base": "*",
+    "cardinal-components-level": "*"
+  },
+
+  "suggests": {
+  }
+}

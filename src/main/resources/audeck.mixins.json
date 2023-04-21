@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.audeck.challengemod.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "CraftingScreenHandlerMixin",
+    "CreateWorldScreenMixin",
+    "CreditsScreenMixin",
+    "GameMenuScreenMixin",
+    "InGameHudMixin",
+    "IntegratedServerMixin",
+    "PlayerEntityMixin",
+    "SubtitlesHudMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
